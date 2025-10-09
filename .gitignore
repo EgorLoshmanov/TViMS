@@ -1,0 +1,16 @@
+# Среда разработки
+.vscode/
+.idea/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Разное
+.DS_Store
+*.log
