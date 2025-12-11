@@ -45,7 +45,7 @@ def fit_linear_regression(df: pd.DataFrame, target: str, features: list[str]):
     return beta_hat_dict, residuals, sigma2_hat
 
 
-df = pd.read_csv('House-Prices.csv')
+df = pd.read_csv('pack6/data.csv')
 
 # -------------------------------
 # 1. УДАЛЕНИЕ СИЛЬНО КОРРЕЛИРОВАННЫХ НЕЗАВИСИМЫХ ПРИЗНАКОВ

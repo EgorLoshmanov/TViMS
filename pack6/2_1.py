@@ -72,7 +72,7 @@ def test_coef_significance(df: pd.DataFrame,
         "sigma2_hat": sigma2_hat
     }
 
-df = pd.read_csv("House-Prices.csv")
+df = pd.read_csv("pack6/House-Prices.csv")
 
 target = "price"
 features = ["room_num", "poor_prop", "resid_area"]  # любые твои признаки

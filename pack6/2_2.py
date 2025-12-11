@@ -134,7 +134,7 @@ def backward_elimination(df: pd.DataFrame,
 # ПОДГОТОВКА ДАННЫХ ДЛЯ АЛГОРИТМА
 # ============================
 
-df = pd.read_csv("House-Prices.csv")
+df = pd.read_csv("pack6/House-Prices.csv")
 target = 'price'
 
 # one-hot для категориальных переменных

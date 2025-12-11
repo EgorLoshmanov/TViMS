@@ -14,7 +14,7 @@ from math import lgamma, sqrt
 # КОНСТАНТЫ И КОНФИГУРАЦИЯ
 # ---------------------------
 
-DATA_FILE = "House-Prices.csv"
+DATA_FILE = "pack6/House-Prices.csv"
 WATER_GROUPS = ['None', 'River', 'Lake', 'Lake and River']
 PLOT_X_RANGE = (0.001, 0.999, 400)
 
